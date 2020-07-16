@@ -1,0 +1,122 @@
+.sidebar 
+{
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: "Roboto", sans-serif;
+  background: #476b6b;
+  width: 300px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  height: 1200px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.sidebar .user-info {
+    padding: 13px 15px 12px 15px;
+    white-space: nowrap;
+    position: relative;
+    border-bottom: 1px solid black;
+    height: 135px; 
+}
+.sidebar .user-info .image {
+      display: inline-block; 
+      margin-left: 80px;
+}
+.sidebar .user-info .image img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: bottom !important; 
+}
+.sidebar .user-info .info-container {
+      cursor: default;
+      display: block;
+      position: relative;
+      top: 5px; 
+      margin-left: 60px;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+}
+.sidebar .user-info .info-container .name {
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 14px;
+        max-width: 200px;
+        color: black; 
+}
+.sidebar .user-info .info-container .email {
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 12px;
+        max-width: 200px;
+        color: black; 
+}
+.sidebar .menu .list {
+      list-style: none;
+      padding-left: 0; 
+}
+.sidebar .menu .list .header {
+  background: rgb(187, 180, 180);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 16px; 
+}
+.menu-bar{
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+.menu-bar li{
+  line-height: 50px;
+  border-bottom: 1px solid black;
+  margin-left: -16%;
+  border-right-color: cyan;
+}
+.menu-bar li a{
+  color: white;
+  transition: 0.5s;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+/* .menu-bar li a:hover{
+  padding-left: 40px;
+  transition: 0.1s;
+  color: black;
+} */
+.faa{
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.sub-menu{
+  list-style: square;
+}
+.menu ul ul li{
+  padding-left: 45px;
+  border-bottom: none;
+  border-top: 1px solid white;
+}
+.menu ul ul li a{
+  color: white;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.menu ul ul li a{
+  padding-left: 25px;
+
+}

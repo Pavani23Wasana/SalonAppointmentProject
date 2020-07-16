@@ -1,0 +1,28 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+} 
+body { 
+    font-size: 120%; 
+    background: #F8F8FF; 
+} 
+  
+.header { 
+    width: 100%; 
+    margin: 0px auto 0px; 
+    color: white; 
+    background: #262626; 
+    text-align: center; 
+    border: 1px solid #B0C4DE; 
+    border-bottom: none; 
+    /* border-radius: 10px 10px 0px 0px;  */
+    padding: 0px; 
+} 
+
+
+.success { 
+    color: #3c763d;  
+    background: #dff0d8;  
+    border: 1px solid #3c763d; 
+    margin-bottom: 20px; 
+} 
